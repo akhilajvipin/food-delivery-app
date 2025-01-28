@@ -1,0 +1,92 @@
+/* .app-download{
+    margin: auto auto;
+    margin-top: 100px;
+    font-size: max(3vw,20px);
+    text-align: center;
+    font-weight: 500;
+}
+.app-download-platform{
+    display: flex;
+    justify-content: center;
+    gap:max(2vw,10px);
+    margin-top: 40px;
+}
+.app-download-platform img{
+    width: max(30vw, 120px);
+    max-width: 180px;
+    transition: 0.5s;
+}
+.app-download-platform img:hover{
+   transform: scale(1.05);
+} */
+
+.app-download {
+    margin: auto;
+    margin-top: 100px;
+    font-size: max(3vw, 20px); /* Responsive font size */
+    text-align: center;
+    font-weight: 500;
+}
+
+.app-download-platform {
+    display: flex;
+    justify-content: center;
+    gap: max(2vw, 10px);
+    margin-top: 40px;
+}
+
+.app-download-platform img {
+    width: max(30vw, 120px); /* Ensure image is responsive */
+    max-width: 180px;
+    transition: 0.5s;
+}
+
+.app-download-platform img:hover {
+    transform: scale(1.05);
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+    .app-download {
+        font-size: max(4vw, 18px); /* Adjust font size for tablets */
+        margin-top: 80px; /* Adjust margin for better spacing */
+    }
+
+    .app-download-platform {
+        gap: max(3vw, 15px); /* Increase the gap between icons for medium screens */
+    }
+
+    .app-download-platform img {
+        width: max(25vw, 100px); /* Adjust image size for tablets */
+    }
+}
+
+@media (max-width: 768px) {
+    .app-download {
+        font-size: max(5vw, 18px); /* Further adjust font size for mobile */
+        margin-top: 60px; /* Reduce top margin for mobile devices */
+    }
+
+    .app-download-platform {
+        gap: max(4vw, 12px); /* Increase gap on smaller screens */
+    }
+
+    .app-download-platform img {
+        width: max(35vw, 90px); /* Increase image size for mobile screens */
+    }
+}
+
+@media (max-width: 480px) {
+    .app-download {
+        font-size: max(6vw, 16px); /* Make text larger for very small screens */
+        margin-top: 50px; /* Adjust top margin for very small screens */
+    }
+
+    .app-download-platform {
+        gap: max(5vw, 10px); /* Even larger gap on small screens */
+    }
+
+    .app-download-platform img {
+        width: max(40vw, 80px); /* Adjust image size for very small screens */
+    }
+}

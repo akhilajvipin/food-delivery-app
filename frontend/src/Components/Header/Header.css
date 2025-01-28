@@ -1,0 +1,168 @@
+
+
+/* .header {
+    height: 34vw;
+    margin: 30px auto;
+    background: url(https://wallpapers.com/images/hd/paella-dish-with-veggies-on-board-0ey63p78wcip8k67.jpg) no-repeat center center;
+    position: relative;
+    background-size: cover; 
+    background-position: center;
+    background-attachment:fixed ; 
+    border-radius: 40px;
+
+}
+.header-contents{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 1.5vw;
+    max-width: 50%;
+    bottom: 10%;
+    left: 6vw;
+    animation: fadeIn 3s ;
+}
+
+.header-contents h2{
+    font-weight:500;
+    color: white;
+    font-size: max(4.5vw,22px);
+}
+.header-contents p{
+    color: white;
+    font-size: 1vw;
+}
+.header-contents button {
+   border: none;
+   color: #000;
+   font-weight: 500;
+   padding: 1vw 2.3vw;
+   background-color: white;
+   font-size: max(1vw,13px);
+   border-radius: 50px;
+}
+ */
+
+ .header {
+    height: 34vw; /* Set based on viewport width */
+    margin: 30px auto;
+    background: url(https://wallpapers.com/images/hd/paella-dish-with-veggies-on-board-0ey63p78wcip8k67.jpg) no-repeat center center;
+    position: relative;
+    background-size: cover; 
+    background-position: center;
+    background-attachment: fixed; 
+    border-radius: 40px;
+}
+
+/* Content inside the header */
+.header-contents {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1.5vw;
+    max-width: 50%;
+    bottom: 10%;
+    left: 6vw;
+    animation: fadeIn 3s;
+}
+
+/* Heading Styling */
+.header-contents h2 {
+    font-weight: 500;
+    color: white;
+    font-size: max(4.5vw, 22px); /* Responsive font size */
+}
+
+/* Paragraph Styling */
+.header-contents p {
+    color: white;
+    font-size: 1vw;
+}
+
+/* Button Styling */
+.header-contents button {
+   border: none;
+   color: #000;
+   font-weight: 500;
+   padding: 1vw 2.3vw;
+   background-color: white;
+   font-size: max(1vw, 13px); /* Responsive font size */
+   border-radius: 50px;
+}
+
+/* Responsive Design with Media Queries */
+@media (max-width: 1024px) {
+    .header {
+        height: 50vw; /* Adjust height for tablets and smaller screens */
+    }
+    
+    .header-contents {
+        max-width: 70%;
+        left: 5vw;
+        bottom: 8%;
+    }
+    
+    .header-contents h2 {
+        font-size: max(6vw, 20px); /* Adjust heading size for smaller screens */
+    }
+
+    .header-contents p {
+        font-size: 1.2vw; /* Adjust paragraph size */
+    }
+
+    .header-contents button {
+        padding: 1.2vw 2.5vw;
+        font-size: max(1.2vw, 12px); /* Adjust button font size */
+    }
+}
+
+@media (max-width: 768px) {
+    .header {
+        height: 60vw; /* Further adjust height for mobile screens */
+    }
+    
+    .header-contents {
+        max-width: 80%;
+        left: 4vw;
+        bottom: 6%;
+    }
+    
+    .header-contents h2 {
+        font-size: max(8vw, 18px); /* Adjust heading size for mobile */
+    }
+
+    .header-contents p {
+        font-size: 1.5vw; /* Adjust paragraph size for mobile */
+    }
+
+    .header-contents button {
+        padding: 1.5vw 3vw;
+        font-size: max(1.5vw, 11px); /* Adjust button font size for mobile */
+    }
+}
+
+@media (max-width: 480px) {
+    .header {
+        height: 80vw; /* Make header taller for very small screens like phones */
+    }
+    
+    .header-contents {
+        max-width: 80%;
+        left: 3vw;
+        bottom: 5%;
+    }
+    
+    .header-contents h2 {
+        font-size: max(10vw, 16px); /* Very large text for smaller screens */
+    }
+
+    .header-contents p {
+        font-size: 2vw; /* Larger font size for readability on small devices */
+    }
+
+    .header-contents button {
+        padding: 2vw 4vw;
+        font-size: max(2vw, 10px); /* Adjust button size for very small screens */
+    }
+}
