@@ -9,7 +9,7 @@ const Footernew = () => {
         <div className="footer-content">
          <div className="footer-content-left">
         <img style={{width:'100px'}} src="https://i.pinimg.com/280x280_RS/d9/9a/b2/d99ab2f6ec58711e918e1688fc3e650b.jpg" alt="" />
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi odit deleniti perspiciatis consequuntur. Aperiam eos ad iusto possimus animi quod obcaecati quis facere omnis cum, commodi quo nam saepe? Repellendus?</p>
+        {/* <p style={{justifyContent:'center'}}>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi odit deleniti perspiciatis consequuntur. Aperiam eos ad iusto possimus animi quod obcaecati quis facere omnis cum, commodi quo nam saepe? Repellendus?</p> */}
             
             <div className='footer-social-icons'>
                 <img src={assets.facebook_icon} alt="" />
