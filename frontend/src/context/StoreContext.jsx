@@ -10,7 +10,7 @@ const [cartItems,setCartItems] =useState({});
 console.log(cartItems);
 
 
-const url = 'http://localhost:8000'
+const url = 'https://food-delivery-app-backend-1stg.onrender.com'
 
 const [token,setToken] = useState("")
 const [food_list,setFoodList] = useState([])
